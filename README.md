@@ -2,7 +2,11 @@
 
 > A platformer serious game with no way to win, and that's the point.
 
-You play a chronic people-pleaser who takes every task that comes. Each task spikes your pleasure meter because you feel challenged and it's rewarding. But every _level_ : tightens the deadlines and piles on more tasks and responsibility, and the _timer_,: the deadline, or the weight of everyone's expectations, never lets you stop. Your _health_: quietly drains, your character slows, and no matter how skillfully you play, the ending is always the same: burnout or emotional collapse. The player's real "choice" is only *how* they arrive at the end, and discovering that there was never a way out is the emotional core of the game.
+You play a chronic people-pleaser who takes every task that comes. Each task spikes your pleasure meter because you feel challenged and it's rewarding. But every:
+<li>_level_ : tightens the deadlines and piles on more tasks and responsibility, and </li>
+<li>the _timer_,: the deadline, or the weight of everyone's expectations, never lets you stop. </li>
+  </li>Your _health_: quietly drains, your character slows, and no matter how skillfully you play, </li>
+  the ending is always the same: burnout or emotional collapse. The player's real "choice" is only *how* they arrive at the end, and discovering that there was never a way out is the emotional core of the game.
 
 
 
