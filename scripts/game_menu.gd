@@ -5,7 +5,7 @@ const COMMERCIAL_SCENE = preload("uid://d2xguvgncyliw")
 
 func _ready() -> void:
 	sound_manager.play("EnterGame")
-	utils.fade_from_overlay(UiConstants.DEFAULT_FADE_DURATION)  # reveal after the splash fades to white
+	utils.fade_from_overlay(UiConstants.DEFAULT_FADE_DURATION)
 
 func start_game() -> void:
 	sound_manager.play("EnterGame")
