@@ -1,0 +1,17 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot 4+ cache (never commit; .import files DO get committed)
+.godot/
+/android/
+
+# Web export output (rebuilt by CI)
+release/
+
+# OS / editor junk. Tracked .DS_Store files are rewritten by Finder on a Mac
+# and show up as "modified" next to the .import files.
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp

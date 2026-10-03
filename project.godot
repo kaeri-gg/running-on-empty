@@ -1,0 +1,64 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Running on Empty"
+run/main_scene="uid://qk4cctayieey"
+config/features=PackedStringArray("4.6", "Forward Plus")
+boot_splash/show_image=false
+boot_splash/use_filter=false
+config/icon="res://icon.svg"
+boot_splash/show_godot_logo=false
+
+[audio]
+
+buses/default_bus_layout="uid://b8wr0hwoqop4v"
+
+[autoload]
+
+utils="*uid://bsfeki27pyrgy"
+sound_manager="*uid://dli2v7y1atlqn"
+bg_music="*uid://ba72tpgnbuoda"
+ui_manager="*uid://bbb0232q636ie"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[importer_defaults]
+
+texture={
+"compress/high_quality": false,
+"compress/lossy_quality": 0.7,
+"compress/mode": 0,
+"detect_3d/compress_to": 0,
+"mipmaps/generate": false,
+"process/fix_alpha_border": true,
+"process/premult_alpha": false
+}
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_s3tc_bptc=true

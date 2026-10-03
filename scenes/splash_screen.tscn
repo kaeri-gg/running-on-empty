@@ -1,0 +1,110 @@
+[gd_scene format=3 uid="uid://qk4cctayieey"]
+
+[ext_resource type="FontFile" uid="uid://bjtvtthbexde8" path="res://assets/fonts/ShantellSans-Regular.ttf" id="1_wh6tg"]
+[ext_resource type="Script" uid="uid://c8alujorx7t72" path="res://scripts/splash_screen.gd" id="2_usb1j"]
+[ext_resource type="Texture2D" uid="uid://blmnrqs2rcstn" path="res://assets/images/godot_monochrome_light.svg" id="3_lhnum"]
+[ext_resource type="Texture2D" uid="uid://4dek45kyjmyb" path="res://assets/images/godot_monochrome_light_2.svg" id="4_it15u"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3mj2l"]
+bg_color = Color(1, 1, 1, 0.18039216)
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fill"]
+bg_color = Color(1, 1, 1, 0.9)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="Theme" id="Theme_vbcv6"]
+ProgressBar/colors/font_color = Color(0.51520795, 0.515208, 0.5152091, 1)
+ProgressBar/font_sizes/font_size = 16
+ProgressBar/fonts/font = ExtResource("1_wh6tg")
+ProgressBar/styles/background = SubResource("StyleBoxFlat_3mj2l")
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_fill")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ndlxt"]
+bg_color = Color(0.5795962, 0.5657938, 0.8264051, 1)
+
+[sub_resource type="Theme" id="Theme_ep5rh"]
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_ndlxt")
+
+[sub_resource type="Gradient" id="Gradient_wh6tg"]
+colors = PackedColorArray(0.44452256, 0.7847578, 0.7649144, 1, 0.9750282, 0.80363995, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_usb1j"]
+gradient = SubResource("Gradient_wh6tg")
+fill_from = Vector2(0.32478634, 0.71581197)
+fill_to = Vector2(0.9230769, 0.102564104)
+
+[node name="SplashScreen" type="Control" unique_id=1606166660]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_vbcv6")
+script = ExtResource("2_usb1j")
+
+[node name="Background" type="TextureRect" parent="." unique_id=333811721]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_ep5rh")
+texture = SubResource("GradientTexture2D_usb1j")
+expand_mode = 5
+
+[node name="Logo" type="MarginContainer" parent="." unique_id=1325958221]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Top" type="MarginContainer" parent="Logo" unique_id=1333662163]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="GodotLogo" type="TextureRect" parent="Logo/Top" unique_id=1645713020]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("3_lhnum")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="Bottom" type="MarginContainer" parent="Logo" unique_id=1884404404]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="GodotTeeth" type="TextureRect" parent="Logo/Bottom" unique_id=1637186331]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("4_it15u")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="ProgressBar" type="MarginContainer" parent="Logo" unique_id=286881993]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/margin_bottom = 50
+
+[node name="ProgressBar" type="ProgressBar" parent="Logo/ProgressBar" unique_id=1489958507]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
