@@ -1,0 +1,21 @@
+*   [33ma45f2b1[m[33m ([m[1;36mHEAD -> [m[1;32mplayer_movement_environment[m[33m, [m[1;32mbackup/player-movement-environment[m[33m)[m latest changes
+[31m|[m[32m\[m  
+[31m|[m * [33meb9fa98[m initial player movement and environment setup
+* [32m|[m   [33m1d21c3c[m Merge pull request #3 from kaeri-gg/feature-splash-screen
+[33m|[m[34m\[m [32m\[m  
+[33m|[m * [32m|[m [33m1c1b80f[m[33m ([m[1;31morigin/feature-splash-screen[m[33m)[m Remove splash screen and update main scene
+[33m|[m[33m/[m [32m/[m  
+* [32m|[m   [33mc812747[m Merge pull request #2 from kaeri-gg/feature-workflow
+[35m|[m[36m\[m [32m\[m  
+[35m|[m * [32m|[m [33m96bbbfb[m[33m ([m[1;31morigin/feature-workflow[m[33m)[m Add GitHub Pages deploy workflow
+[35m|[m[35m/[m [32m/[m  
+* [32m|[m   [33mb5a1d0f[m Merge pull request #1 from kaeri-gg/project-base
+[32m|[m[1;32m\[m [32m\[m  
+[32m|[m [1;32m|[m[32m/[m  
+[32m|[m[32m/[m[1;32m|[m   
+[32m|[m * [33m14a40d1[m[33m ([m[1;31morigin/project-base[m[33m)[m Pin Godot 4.7 and bootstrap project
+[32m|[m[32m/[m  
+* [33mbe7036c[m setup of the godot game project
+* [33m27d577c[m Group Members
+* [33m6ee9abf[m Update README.md
+* [33m66079dd[m Fix formatting issues in README.md
