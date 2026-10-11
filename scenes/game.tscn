@@ -1,7 +1,7 @@
-[gd_scene load_steps=20 format=3 uid="uid://duu632t7s3hr"]
+[gd_scene load_steps=20 format=3 uid="uid://cn72csk02uc0d"]
 
 [ext_resource type="Texture2D" uid="uid://b6j0vt2npod2p" path="res://assests/sprites/background_game.png" id="1_uwrxv"]
-[ext_resource type="Script" uid="uid://8y7lgwojtij0" path="res://scripts/player.gd" id="2_lbhrr"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="2_lbhrr"]
 [ext_resource type="Texture2D" uid="uid://ci4w4ich51ikv" path="res://assests/sprites/mage.png" id="2_yqjtg"]
 [ext_resource type="Texture2D" uid="uid://bg7jx04wu0xt1" path="res://assests/sprites/world_tileset.png" id="3_lnu2h"]
 [ext_resource type="Texture2D" uid="uid://thasf5xt2u02" path="res://assests/sprites/walk1.png" id="4_0tnpc"]

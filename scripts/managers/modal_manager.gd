@@ -15,7 +15,7 @@ func _ready() -> void:
 		"about-the-game": about_the_game,
 	}
 
-	sound_manager.play("EnterGame")
+	#sound_manager.play("EnterGame")
 	
 	close_button.on_click.connect(close_modal)
 	return_to_home_link.pressed.connect(return_to_home)

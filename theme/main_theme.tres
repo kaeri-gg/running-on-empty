@@ -1,4 +1,4 @@
-[gd_resource type="Theme" format=3 uid="uid://deao4c1ege2ao"]
+[gd_resource type="Theme" load_steps=13 format=3 uid="uid://deao4c1ege2ao"]
 
 [ext_resource type="FontFile" uid="uid://cnqvv2fq4nkmg" path="res://assets/fonts/ShantellSans-ExtraBold.ttf" id="1_1knni"]
 [ext_resource type="FontFile" uid="uid://bwefsygekyimg" path="res://assets/fonts/ShantellSans-Medium.ttf" id="2_os614"]

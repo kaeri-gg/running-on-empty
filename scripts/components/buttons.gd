@@ -14,7 +14,7 @@ func _ready() -> void:
 	button.pressed.connect(_on_pressed)
 
 func _on_pressed() -> void:
-	sound_manager.play("Click")
+	#sound_manager.play("Click")
 	match action:
 		Action.HOME:
 			get_tree().change_scene_to_file(home_scene_path)
